@@ -1,1 +1,1 @@
-# tp-softmax-20newsgroups
+# TP - Clasificación Multiclase de Texto con Regresión Softmax Redes Neuronales / Deep Learning
