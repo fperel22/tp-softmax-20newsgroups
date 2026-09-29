@@ -33,10 +33,9 @@ Consigna base: [TP-Regresion-Softmax-TNG](https://github.com/cselmo/TP-Regresion
 
 ## Resultados principales
 
-- Mejor combinación encontrada por Optuna: sin sacar stopwords / con stopwords
-  (varía levemente entre corridas), stemming, unigramas, `max_features=10000`,
+- Mejor combinación encontrada por Optuna: sin stopwords, stemming, unigramas, `max_features=10000`,
   `min_df` entre 2 y 5.
-- Accuracy en test (modelo final): **~0.656**
+- Accuracy en test (modelo final): **~0.6569**
 - Las categorías con más confusión son las de religión (`talk.religion.misc`,
-  `alt.atheism`), política (`talk.politics.*`) y los subgrupos de `comp.*`,
+  `alt.atheism`), política (`talk.politics.*`) y los subgrupos de `comp.`,
   detallado en la sección 9 (pregunta 9) y 10 del notebook.
